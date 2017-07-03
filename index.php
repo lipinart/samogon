@@ -10,6 +10,8 @@
 	<meta charset="utf-8" />
 	<title><?php print($page_title); ?></title>
 	<link rel="icon" href="images\default_shops_favicon.png" type="image/png">
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 	<?php print($meta_tags); ?>
 	<?php get_css($css); ?>
 </head>
