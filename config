@@ -19,6 +19,11 @@ $meta_tags .= '<meta name="qnits" content="qnits">';
 $meta_tags .= '<meta name="qnitsUserLogined" content="0">';
 $meta_tags .= '<meta name="google-site-verification" content="JW7o-1E9B5meDBBaq-29aZoVVtaE6iBiRnUlwKNs_LM" />';
 $meta_tags .= '<meta name="revisit-after" content="1 days">';
+$meta_tags = '<meta property="og:type" content="article">';
+$meta_tags = '<meta property="og:title" content="Самогонный аппарат “Горыныч”">';
+$meta_tags = '<meta property="og:url" content="http://samogon.online">';
+$meta_tags = '<meta property="og:description" name="description" content="Самогонный аппарат “Горыныч” – полностью разборное устройство для получения крепких алкогольных напитков. С его помощью можно приготовить самогон, коньяк, виски и др.">';
+$meta_tags = '<meta property="og:image" content="http://samogon.online/images/gor.jpg">';
 
 //Add CSS
 $css = array();
