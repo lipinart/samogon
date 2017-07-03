@@ -219,7 +219,7 @@ $('form').submit(function(e){
 	var fid = "#"+$(this).attr("id");
 	$.ajax({
 		type: 'POST',
-		url: 'test_send.php',
+		url: 'send.php',
 		data: form_data,
 		success: function(response){
 			if(response != "1"){
