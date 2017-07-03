@@ -1,0 +1,253 @@
+﻿.widgetTool .well {
+    background: none;
+    border: none;
+    padding: 0 !important;
+}
+.btn-action, input[type="submit"] {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: center;
+    padding:12px 24px;
+    cursor:pointer;
+    background:#ff1300;
+    color:#fff;
+    border-bottom:3px solid #cb0c01;    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+    top:0px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+    transition: top 0.25s ease 0s;
+}
+.btn-action:hover, .btn-action:active, .btn-action:focus, input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:focus {
+    text-decoration: none;
+    top:-6px;
+    background:#ff2010;
+    color: #fff;
+    -webkit-box-shadow: inset 0 -3px 0 0 #cb0c01;
+    box-shadow: inset 0 -3px 0 0 #cb0c01;
+    outline: none; 
+}
+.btn-ok {
+    display: inline-block;
+    --width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: center;
+    padding:12px 24px;
+    cursor:pointer;
+    background:#fefefe;
+    color:#222;
+    border-bottom:3px solid #ddd;    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+    top:0px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+    transition: top 0.25s ease 0s;
+}
+.btn-ok:hover, .btn-ok:active, .btn-ok:focus{
+    text-decoration: none;
+    top:-6px;
+    background:#fff;
+    color: #111;
+    -webkit-box-shadow: inset 0 -3px 0 0 #ccc;
+    box-shadow: inset 0 -3px 0 0 #ccc;
+    outline: none; 
+}
+.btn-gold {
+    display: inline-block;
+    --width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: center;
+    padding:6px 12px;
+    cursor:pointer;
+    background:#FFD700;
+    color:#222;
+    border-bottom:2px solid #FFA500;    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+    top:0px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+    transition: top 0.25s ease 0s;
+}
+.btn-gold:hover, .btn-gold:active, .btn-gold:focus{
+    text-decoration: none;
+    top:-4px;
+    background:#FFF300;
+    color: #111;
+    -webkit-box-shadow: inset 0 -1px 0 0 #FFA500;
+    box-shadow: inset 0 -1px 0 0 #FFA500;
+    outline: none; 
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    overflow: visible;
+    border:0;
+}
+
+.callback_name, .callback_phone{
+    font-size: 20px;
+    font-weight: normal;
+    height: 48px;
+    background: #fff;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #fff;
+    padding-right: 50px;
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.modal .callback_name, .modal .callback_phone{
+    border: 1px solid #ddd;
+}
+
+.oneClickBuyName:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 12px;
+    right: 21px;
+    background: url(../../images/i/sprites.png) -26px -35px;
+    z-index: 2;
+}
+
+.oneClickBuyName,
+.oneClickBuyPhone {
+    position: relative;
+    margin-bottom: 19px;
+}
+
+.oneClickBuyPhone:after {
+
+    content: '';
+    display: block;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 12px;
+    right: 21px;
+    background: url(../../images/i/sprites.png) 0 -35px;
+    z-index: 2;
+}
+
+.widgetTool .typicalFormSubmit a, .oneClickInput input.btn--submit {
+    line-height: 45px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    height: 45px;
+    background: #ff1300;
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #cb0c01;
+    -webkit-box-shadow: inset 0 -3px 0 0 #cb0c01;
+    box-shadow: inset 0 -3px 0 0 #cb0c01;
+}
+
+.widgetTool .typicalFormSubmit a:hover,
+.oneClickInput input.btn-submit:hover,
+.oneClickInput input.btn-submit:ative,
+.oneClickInput input.btn-submit:focus {
+    background: #e61100!important;
+    outline: none;
+}
+form .oneClickInput > label{
+    display: none!important;
+}
+.modalFormContent
+{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.modal-header h3{
+    text-align: center;
+}
+.modal .modal-header{
+    border:0;
+    min-height: 3em;
+}
+
+.rekvizit {
+    height: 70px;
+    background: url("../../images/rekv.png") no-repeat center center transparent;
+}
+
+/* thank page */
+.thank{
+    display: block;
+    margin: 200px auto;
+    width: 400px;
+    text-align: center;
+    padding: 30px;
+    border: 3px solid#ff1300s;
+    border-radius: 20px;
+}
+.thank .head{
+    font-size: 3em;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.thank .text{
+    font-size: 18px;
+}
+.thank + #qnits_copyright{
+    display: none;
+}
+.oneClickInput.error > input{
+    border-color:red!important;
+    position: relative;
+}
+.oneClickInput > .tip, .form-order label{
+    display: none;
+}
+.oneClickInput.error > .tip{
+    display: block;
+    position: absolute;
+    top:-16px;
+    left:6px;
+    z-index: 999;
+    padding: 2px 6px;
+    border-radius: 2px;
+    color: #fff;
+    background: #FD220F;
+}
+.form-result{
+    display: none;
+    text-align: center;
+    padding: 12px;
+    border:1px solid #fff;
+}
+.inverse p{
+    color:#fff;
+}
