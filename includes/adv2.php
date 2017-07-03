@@ -4,7 +4,7 @@
 			<div class="col-xs-12">
 				<h2 class="wow fadeInUp">Преимущества самогонного аппарата Горыныч</h2>
 
-				<div class="apparat wow fadeInLeft"><img src="images\i\apparat.jpg"></div>
+				<div class="apparat wow fadeInLeft"><img src="images/i/apparat.jpg"></div>
 				<div class="steps">
 					<div class="item wow fadeInUp">
 						<span class="num">01</span>

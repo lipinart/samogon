@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
-				<div class="logo"><img src="images\i\logo.png"></div>
+				<div class="logo"><img src="images/i/logo.png"></div>
 				<div class="right-column"><span class="phone">8-951-895-69-46</span></div>
 				<div class="left-column"><span class="phone">8-951-895-69-46</span></div>
 			</div>

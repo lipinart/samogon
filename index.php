@@ -9,9 +9,11 @@
 <head>
 	<meta charset="utf-8" />
 	<title><?php print($page_title); ?></title>
-	<link rel="icon" href="images\default_shops_favicon.png" type="image/png">
-	<link rel="icon" href="favicon.ico" type="image/x-icon" />
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+	
 	<?php print($meta_tags); ?>
 	<?php get_css($css); ?>
 </head>

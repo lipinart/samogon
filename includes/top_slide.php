@@ -42,7 +42,7 @@
 				<div class="image wow bounceInLeft">
 					<div class="sale"></div>
 					<div class="price"><span class="wr">7100 р</span></div>
-					<img src="images\i\image.png">
+					<img src="images/i/image.png">
 				</div>
 			</div>
 		</div>

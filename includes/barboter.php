@@ -12,14 +12,14 @@
 					<div class="price">10450 р</div>
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<img src="images\samogon2.jpg" alt="Barboter">
+							<img src="images/samogon2.jpg" alt="Barboter">
 						</div>
 						<div class="item">
-							<img src="images\samogon1.jpg" alt="Samogon apparat">
+							<img src="images/samogon1.jpg" alt="Samogon apparat">
 						</div>
 					</div>
-					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <img src="images\prev.png" alt="arrow" class="arr"></a>
-					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><img src="images\next.png" alt="arrow" class="arr"></a>
+					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <img src="images/prev.png" alt="arrow" class="arr"></a>
+					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><img src="images/next.png" alt="arrow" class="arr"></a>
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-6 col-sm-12  wow fadeInRight barba-descript">
